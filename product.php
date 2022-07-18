@@ -20,6 +20,11 @@ if(isset($_POST["addproduct"])){
   }
 }
 $sql = "INSERT INTO product(productname, price, quantity, image) values('$productname', '$price', '$quantity', '$image')";
+if($db -> query($sql)){
+  
+
+  echo "<script> alert('product added successfully')</script>";
+}
 
 ?>
 
@@ -127,6 +132,6 @@ $sql = "INSERT INTO product(productname, price, quantity, image) values('$produc
 
 
 
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></>
 </body>
 </html>
