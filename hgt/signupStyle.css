@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.png);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    /* margin: 10px; */
+    /* padding: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.header ul {
+    display: flex;
+    margin-top: 30px;
+}
+
+.header ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 25vw;
+    border-radius: 20px;
+    padding: 5px 20px 20px 20px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top img {
+    width: 150px;
+}
+
+h2 {
+    margin: 0 10px 20px 5px;
+    font-weight: 800;
+    text-align: left;
+}
+
+label {
+    margin: 10px;
+    font-weight: 700;
+}
+
+.icon {
+    padding: 20px 0 10px 20px;
+    ;
+    background-color: transparent;
+    color: rgb(107, 107, 107);
+    min-width: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+}
+
+.number {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: 900;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    /* margin: 20px 0px 35px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.text {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: 900;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    /* margin: 20px 0px 35px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.email {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: 900;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    /* margin: 20px 0px 35px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.lock {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: large;
+    font-weight: 900;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    /* margin: 20px 0px 35px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 20px 0 20px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: blue;
+    font-size: medium;
+    box-shadow: 0px 10px rgb(54, 15, 96);
+    font-weight: 700;
+}
+.submit {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: 900;
+    background-color: blue;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    /* margin: 20px 0px 35px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.lock {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: large;
+    font-weight: 900;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    /* margin: 20px 0px 35px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.account {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: rgb(12, 12, 70);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.link {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.link a:hover {
+    color: aqua;
+}
